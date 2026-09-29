@@ -14,7 +14,9 @@ Currently I'm building an **AI-native e-commerce operations platform** in Java 1
 
 - **LLM agents:** tool use / function calling, multi-step planning, human handoff, guardrails
 - **RAG:** embeddings, hybrid retrieval (vector + keyword), pgvector, relevance tuning, citations
-- **LLMOps:** offline evals, prompt versioning, observability, prompt caching and cost control
+- **LLMOps:** offline evals, prompt versioning, observability (OpenTelemetry), prompt caching and cost control
+- **AI security:** prompt-injection defense, guardrails enforced in code, human-in-the-loop approval, OWASP Top 10 for LLM Apps
+- **Browser agents & MCP:** Playwright-driven agents, Model Context Protocol servers
 - **Models & frameworks:** Claude, OpenAI, LangChain
 - **Privacy:** PII redaction before LLM calls, zero data retention, LGPD/HIPAA-minded design
 
@@ -42,6 +44,8 @@ Currently I'm building an **AI-native e-commerce operations platform** in Java 1
 
 ### 📊 Featured Work
 
+- **[WebPilot Agent](https://github.com/GustavoPFARIA/webpilot-agent)** (open source): an AI agent that completes tasks in a real browser, with prompt-injection defenses, a network-level allow-list, SSRF protection, human approval for purchases, an MCP server and OpenTelemetry tracing. 16/16 end-to-end evals, 88 tests, CI with CodeQL and a Docker smoke test. *Python · FastAPI · Playwright · Claude · OpenAI*
+
 - **AI-native e-commerce operations platform:** Java 17 · Spring Boot · React. AI chatbots, Stripe/PayPal payments, HubSpot CRM sync and n8n automation running a live store
 - **Healthcare AI patient-engagement platform:** a 24/7 WhatsApp AI agent for scheduling, payments and exam-result delivery, with RAG over clinical protocols and LGPD-compliant data handling
 - **Multi-client AI support platform:** LLM agents with function calling, RAG on pgvector and CRM sync for 20+ B2B companies of a managed IT services provider
@@ -63,6 +67,7 @@ Currently I'm building an **AI-native e-commerce operations platform** in Java 1
 ![WhatsApp](https://img.shields.io/badge/WhatsApp_API-25D366?style=flat&logo=whatsapp&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
