@@ -44,7 +44,11 @@ Currently I'm building an **AI-native e-commerce operations platform** in Java 1
 
 ### 📊 Featured Work
 
+- **[ClinicFlow AI](https://github.com/GustavoPFARIA/clinicflow-ai)** (open source): a WhatsApp AI agent for healthcare clinics. It books, reschedules and cancels appointments with multi-step tool use, answers from the clinic's knowledge base with cited sources (RAG on pgvector), takes Stripe payments through signed webhooks, delivers lab results via EHR/LIS + FHIR and hands off to a human. Guardrails and PII protection are enforced in code, and it ships an MCP server. 35 agent evals including prompt injection (34/35 with a real model), 65 tests, CI. *Python · FastAPI · Claude · pgvector · Stripe · n8n · MCP*
+
 - **[WebPilot Agent](https://github.com/GustavoPFARIA/webpilot-agent)** (open source): an AI agent that completes tasks in a real browser, with prompt-injection defenses, a network-level allow-list, SSRF protection, human approval for purchases, an MCP server and OpenTelemetry tracing. 16/16 end-to-end evals with a real model (Gemini), 97 tests, CI with CodeQL and a Docker smoke test. *Python · FastAPI · Playwright · Claude · OpenAI · Gemini*
+
+- **[Shopee Seller Insights](https://github.com/GustavoPFARIA/shopee-seller-insights)** (open source): sales analytics for marketplace sellers. Shopee Open Platform integration (OAuth, HMAC, signed webhooks, background worker), real margin per product, ABC curve, alerts, multi-shop teams and a Claude weekly summary grounded on SQL aggregates only. 216 backend + 16 frontend tests (~99% coverage), 52-check end-to-end smoke test and a performance budget in CI. *Python · FastAPI · PostgreSQL · React · Claude · Docker*
 
 - **AI-native e-commerce operations platform:** Java 17 · Spring Boot · React. AI chatbots, Stripe/PayPal payments, HubSpot CRM sync and n8n automation running a live store
 - **Healthcare AI patient-engagement platform:** a 24/7 WhatsApp AI agent for scheduling, payments and exam-result delivery, with RAG over clinical protocols and LGPD-compliant data handling
